@@ -1,0 +1,887 @@
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git --version
+git version 2.25.1
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt-get remove git
+[sudo] password for alice: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 git-man liberror-perl libfwupdplugin1 libxmlb1
+  linux-headers-5.13.0-37-generic linux-hwe-5.13-headers-5.13.0-37
+  linux-image-5.13.0-37-generic linux-modules-5.13.0-37-generic
+  linux-modules-extra-5.13.0-37-generic
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  git
+0 upgraded, 0 newly installed, 1 to remove and 339 not upgraded.
+After this operation, 36,8 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 241002 files and directories currently installed.)
+Removing git (1:2.25.1-1ubuntu3.11) ...
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt-get install git
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1 linux-headers-5.13.0-37-generic
+  linux-hwe-5.13-headers-5.13.0-37 linux-image-5.13.0-37-generic
+  linux-modules-5.13.0-37-generic linux-modules-extra-5.13.0-37-generic
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb
+  git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git
+0 upgraded, 1 newly installed, 0 to remove and 339 not upgraded.
+Need to get 4.612 kB of archives.
+After this operation, 36,9 MB of additional disk space will be used.
+Get:1 http://it.archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.13 [4.612 kB]
+Fetched 4.612 kB in 5s (887 kB/s)
+Selecting previously unselected package git.
+(Reading database ... 240255 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.25.1-1ubuntu3.13_amd64.deb ...
+Unpacking git (1:2.25.1-1ubuntu3.13) ...
+Setting up git (1:2.25.1-1ubuntu3.13) ...
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git --version
+git version 2.25.1
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt-get remove git
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 git-man liberror-perl libfwupdplugin1 libxmlb1
+  linux-headers-5.13.0-37-generic linux-hwe-5.13-headers-5.13.0-37
+  linux-image-5.13.0-37-generic linux-modules-5.13.0-37-generic
+  linux-modules-extra-5.13.0-37-generic
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  git
+0 upgraded, 0 newly installed, 1 to remove and 339 not upgraded.
+After this operation, 36,9 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 241002 files and directories currently installed.)
+Removing git (1:2.25.1-1ubuntu3.13) ...
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git --version
+bash: /usr/bin/git: No such file or directory
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ add-apt-repository ppa:git-core/ppa
+Traceback (most recent call last):
+  File "/usr/bin/add-apt-repository", line 12, in <module>
+    from softwareproperties.SoftwareProperties import SoftwareProperties, shortcut_handler
+  File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 28, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo add-apt-repository ppa:git-core/ppa
+Traceback (most recent call last):
+  File "/usr/bin/add-apt-repository", line 12, in <module>
+    from softwareproperties.SoftwareProperties import SoftwareProperties, shortcut_handler
+  File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 28, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git --version
+bash: /usr/bin/git: No such file or directory
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt-get install git
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1 linux-headers-5.13.0-37-generic
+  linux-hwe-5.13-headers-5.13.0-37 linux-image-5.13.0-37-generic
+  linux-modules-5.13.0-37-generic linux-modules-extra-5.13.0-37-generic
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb
+  git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git
+0 upgraded, 1 newly installed, 0 to remove and 339 not upgraded.
+Need to get 0 B/4.612 kB of archives.
+After this operation, 36,9 MB of additional disk space will be used.
+Selecting previously unselected package git.
+(Reading database ... 240255 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.25.1-1ubuntu3.13_amd64.deb ...
+Unpacking git (1:2.25.1-1ubuntu3.13) ...
+Setting up git (1:2.25.1-1ubuntu3.13) ...
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo add-apt-repository ppa:git-core/ppa
+Traceback (most recent call last):
+  File "/usr/bin/add-apt-repository", line 12, in <module>
+    from softwareproperties.SoftwareProperties import SoftwareProperties, shortcut_handler
+  File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 28, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt-get install --reinstall python3-apt
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1 linux-headers-5.13.0-37-generic
+  linux-hwe-5.13-headers-5.13.0-37 linux-image-5.13.0-37-generic
+  linux-modules-5.13.0-37-generic linux-modules-extra-5.13.0-37-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 339 not upgraded.
+Need to get 154 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://it.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-apt amd64 2.0.1ubuntu0.20.04.1 [154 kB]
+Fetched 154 kB in 1s (300 kB/s)     
+(Reading database ... 241002 files and directories currently installed.)
+Preparing to unpack .../python3-apt_2.0.1ubuntu0.20.04.1_amd64.deb ...
+Unpacking python3-apt (2.0.1ubuntu0.20.04.1) over (2.0.1ubuntu0.20.04.1) ...
+Setting up python3-apt (2.0.1ubuntu0.20.04.1) ...
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo add-apt-repository ppa:git-core/ppa
+Traceback (most recent call last):
+  File "/usr/bin/add-apt-repository", line 12, in <module>
+    from softwareproperties.SoftwareProperties import SoftwareProperties, shortcut_handler
+  File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 28, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt-get install git
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3.13).
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1 linux-headers-5.13.0-37-generic
+  linux-hwe-5.13-headers-5.13.0-37 linux-image-5.13.0-37-generic
+  linux-modules-5.13.0-37-generic linux-modules-extra-5.13.0-37-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 339 not upgraded.
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git --version
+git version 2.25.1
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global user.name "Alice Moro"alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global user.email moro.alice97@gmail.com
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global init.default branch main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config -h
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git help config
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test1.txt &
+[1] 64780
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test2.txt &
+[2] 64817
+[1]   Done                    gedit test1.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test3.txt &
+[3] 64827
+[2]   Done                    gedit test2.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test4.txt &
+[4] 64838
+[3]   Done                    gedit test3.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ pwd
+/home/alice/Desktop/PhD/1st_year/prova_git
+[4]+  Done                    gedit test4.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git init
+Initialized empty Git repository in /home/alice/Desktop/PhD/1st_year/prova_git/.git/
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ ls -la
+total 28
+drwxrwxr-x 3 alice alice 4096 nov  5 11:29 .
+drwxrwxr-x 6 alice alice 4096 nov  5 11:15 ..
+drwxrwxr-x 7 alice alice 4096 nov  5 11:29 .git
+-rw-rw-r-- 1 alice alice    6 nov  5 11:28 test1.txt
+-rw-rw-r-- 1 alice alice    6 nov  5 11:28 test2.txt
+-rw-rw-r-- 1 alice alice    6 nov  5 11:28 test3.txt
+-rw-rw-r-- 1 alice alice    6 nov  5 11:28 test4.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ cd .git/
+alice@alice-HP-Laptop-15s-eq1xxx:.git$ ls -lha
+total 40K
+drwxrwxr-x 7 alice alice 4,0K nov  5 11:29 .
+drwxrwxr-x 3 alice alice 4,0K nov  5 11:29 ..
+drwxrwxr-x 2 alice alice 4,0K nov  5 11:29 branches
+-rw-rw-r-- 1 alice alice   92 nov  5 11:29 config
+-rw-rw-r-- 1 alice alice   73 nov  5 11:29 description
+-rw-rw-r-- 1 alice alice   23 nov  5 11:29 HEAD
+drwxrwxr-x 2 alice alice 4,0K nov  5 11:29 hooks
+drwxrwxr-x 2 alice alice 4,0K nov  5 11:29 info
+drwxrwxr-x 4 alice alice 4,0K nov  5 11:29 objects
+drwxrwxr-x 4 alice alice 4,0K nov  5 11:29 refs
+alice@alice-HP-Laptop-15s-eq1xxx:.git$ cd ..
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test1.txt
+	test2.txt
+	test3.txt
+	test4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global init.default branch main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test1.txt
+	test2.txt
+	test3.txt
+	test4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git add test1.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   test1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test2.txt
+	test3.txt
+	test4.txt
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git rm --cached test1.txt 
+rm 'test1.txt'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test1.txt
+	test2.txt
+	test3.txt
+	test4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit .gitignore
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test5.dat
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test6.dat
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit .gitignore
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	test1.txt
+	test2.txt
+	test3.txt
+	test4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git add --all
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   test1.txt
+	new file:   test2.txt
+	new file:   test3.txt
+	new file:   test4.txt
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -m "First commit - committing all files to the repository"
+[master (root-commit) 9f72dff] First commit - committing all files to the repository
+ 5 files changed, 6 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 test1.txt
+ create mode 100644 test2.txt
+ create mode 100644 test3.txt
+ create mode 100644 test4.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test1.txt &
+[1] 65349
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   test1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1]+  Done                    gedit test1.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git diff
+diff --git a/test1.txt b/test1.txt
+index d63acd5..d481e33 100644
+--- a/test1.txt
++++ b/test1.txt
+@@ -1 +1,2 @@
+ ciao1
++ho aggiunto una riga :)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git restore --staged test1.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -a -m "Added text line to test1"
+[master 85a212c] Added text line to test1
+ 1 file changed, 1 insertion(+)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git rm "test4.txt"
+rm 'test4.txt'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    test4.txt
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git restore "test4.txt"
+error: pathspec 'test4.txt' did not match any file(s) known to git
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test4.txt &
+[1] 65523
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    test4.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test4.txt
+
+[1]+  Done                    gedit test4.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -m "Added back the deleted file test4.txt"
+[master ec58335] Added back the deleted file test4.txt
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 test4.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git add --all
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   test4.txt
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -m "Added back the deleted file test4.txt (this time in the right way)"
+[master 03a98aa] Added back the deleted file test4.txt (this time in the right way)
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test4.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    test4.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git restore "test4.txt"
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git mv "test4.txt" "test4_new_name.txt"
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -m "Changed filename of fourth txt file"
+[master 01df5b2] Changed filename of fourth txt file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename test4.txt => test4_new_name.txt (100%)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git log
+commit 01df5b2e126d246218285253b49f5ce105558a97 (HEAD -> master)
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:49:25 2024 +0100
+
+    Changed filename of fourth txt file
+
+commit 03a98aabc1eb84e970f56b9b09b998678887f2f0
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:47:17 2024 +0100
+
+    Added back the deleted file test4.txt (this time in the right way)
+
+commit ec58335bf50610160a3db8b570450cdd72f5e562
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:46:42 2024 +0100
+
+    Added back the deleted file test4.txt
+
+commit 85a212c70ea7ea62a4b2070cb9c3bedc8bca34ff
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:43:55 2024 +0100
+
+    Added text line to test1
+
+commit 9f72dff1ce733bb9756ee6d0ca2118bec9131e34
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:40:14 2024 +0100
+
+    First commit - committing all files to the repository
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git log --online
+fatal: unrecognized argument: --online
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git log --oneline
+01df5b2 (HEAD -> master) Changed filename of fourth txt file
+03a98aa Added back the deleted file test4.txt (this time in the right way)
+ec58335 Added back the deleted file test4.txt
+85a212c Added text line to test1
+9f72dff First commit - committing all files to the repository
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -m "Changed filename of fourth .txt file" --amend
+[master 82da185] Changed filename of fourth .txt file
+ Date: Tue Nov 5 11:49:25 2024 +0100
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename test4.txt => test4_new_name.txt (100%)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git log --oneline
+82da185 (HEAD -> master) Changed filename of fourth .txt file
+03a98aa Added back the deleted file test4.txt (this time in the right way)
+ec58335 Added back the deleted file test4.txt
+85a212c Added text line to test1
+9f72dff First commit - committing all files to the repository
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git log -p
+commit 82da1851dc6632eb9e9b0541de272aa31cc3cc84 (HEAD -> master)
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:49:25 2024 +0100
+
+    Changed filename of fourth .txt file
+
+diff --git a/test4.txt b/test4_new_name.txt
+similarity index 100%
+rename from test4.txt
+rename to test4_new_name.txt
+
+commit 03a98aabc1eb84e970f56b9b09b998678887f2f0
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:47:17 2024 +0100
+
+    Added back the deleted file test4.txt (this time in the right way)
+
+diff --git a/test4.txt b/test4.txt
+new file mode 100644
+index 0000000..3641031
+--- /dev/null
++++ b/test4.txt
+@@ -0,0 +1 @@
++ciao4
+
+commit ec58335bf50610160a3db8b570450cdd72f5e562
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:46:42 2024 +0100
+
+    Added back the deleted file test4.txt
+
+diff --git a/test4.txt b/test4.txt
+deleted file mode 100644
+index 3641031..0000000
+--- a/test4.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-ciao4
+
+commit 85a212c70ea7ea62a4b2070cb9c3bedc8bca34ff
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:43:55 2024 +0100
+
+    Added text line to test1
+
+diff --git a/test1.txt b/test1.txt
+index d63acd5..d481e33 100644
+--- a/test1.txt
++++ b/test1.txt
+@@ -1 +1,2 @@
+ ciao1
++ho aggiunto una riga :)
+
+commit 9f72dff1ce733bb9756ee6d0ca2118bec9131e34
+Author: Alice Moro <moro.alice97@gmail.com>
+Date:   Tue Nov 5 11:40:14 2024 +0100
+
+    First commit - committing all files to the repository
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..73afb32
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,2 @@
++# ignore all .dat files (see https://github.com/github/gitignore to learn every way to ignore files)
++*.dat
+diff --git a/test1.txt b/test1.txt
+new file mode 100644
+index 0000000..d63acd5
+--- /dev/null
++++ b/test1.txt
+@@ -0,0 +1 @@
++ciao1
+diff --git a/test2.txt b/test2.txt
+new file mode 100644
+index 0000000..124a16b
+--- /dev/null
++++ b/test2.txt
+@@ -0,0 +1 @@
++ciao2
+diff --git a/test3.txt b/test3.txt
+new file mode 100644
+index 0000000..8148436
+--- /dev/null
++++ b/test3.txt
+@@ -0,0 +1 @@
++ciao3
+diff --git a/test4.txt b/test4.txt
+new file mode 100644
+index 0000000..3641031
+--- /dev/null
++++ b/test4.txt
+@@ -0,0 +1 @@
++ciao4
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git help log
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git log --oneline
+82da185 (HEAD -> master) Changed filename of fourth .txt file
+03a98aa Added back the deleted file test4.txt (this time in the right way)
+ec58335 Added back the deleted file test4.txt
+85a212c Added text line to test1
+9f72dff First commit - committing all files to the repository
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git reset 82da185
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git log --oneline
+82da185 (HEAD -> master) Changed filename of fourth .txt file
+03a98aa Added back the deleted file test4.txt (this time in the right way)
+ec58335 Added back the deleted file test4.txt
+85a212c Added text line to test1
+9f72dff First commit - committing all files to the repository
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git rebase -i --root
+Successfully rebased and updated refs/heads/master.
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch ModifyTest3
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch
+  ModifyTest3
+* master
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git switch ModifyTest3 
+Switched to branch 'ModifyTest3'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch
+* ModifyTest3
+  master
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test3.txt &
+[1] 65945
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch ModifyTest3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   test3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1]+  Done                    gedit test3.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -a -m "Added line to test3 from new branch"
+[ModifyTest3 6b98fc5] Added line to test3 from new branch
+ 1 file changed, 1 insertion(+)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git switch master 
+Switched to branch 'master'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test3.txt &
+[1] 66058
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git merge -m "Merge modified test3 back to master"
+fatal: No remote for the current branch.
+[1]+  Done                    gedit test3.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git merge -m "Merge modified test3 back to master" ModifyTest3
+Updating 82da185..6b98fc5
+Fast-forward (no commit created; -m option ignored)
+ test3.txt | 1 +
+ 1 file changed, 1 insertion(+)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test3.txt &
+[1] 66111
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch -d ModifyTest3 
+Deleted branch ModifyTest3 (was 6b98fc5).
+[1]+  Done                    gedit test3.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch
+* master
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git switch -c UpdateText
+Switched to a new branch 'UpdateText'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch
+* UpdateText
+  master
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test2.txt &
+[1] 66223
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -a -m "Updated text in test2"
+[UpdateText c0f930c] Updated text in test2
+ 1 file changed, 1 insertion(+)
+[1]+  Done                    gedit test2.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git switch master 
+Switched to branch 'master'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test2.txt &
+[1] 66357
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -a -m "Updated text in test2"
+[master 8667f73] Updated text in test2
+ 1 file changed, 1 insertion(+)
+[1]+  Done                    gedit test2.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git merge UpdateText 
+Auto-merging test2.txt
+CONFLICT (content): Merge conflict in test2.txt
+Automatic merge failed; fix conflicts and then commit the result.
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch
+  UpdateText
+* master
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit test2.txt &
+[1] 66445
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git commit -a -m "Updated text in test2"
+[master 3b285e9] Updated text in test2
+[1]+  Done                    gedit test2.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote add origin https://github.com/AliceMoro/prova.git
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch -M main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git push -u origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/AliceMoro/prova.git/' not found
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch -M master
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/AliceMoro/prova.git/' not found
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote add origin https://github.com/AliceMoro/prova.git
+fatal: remote origin already exists.
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote rm origin
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote add origin https://github.com/AliceMoro/prova.git
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch -M main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git push -u origin main
+remote: Permission to AliceMoro/prova.git denied to Alice-Moro.
+fatal: unable to access 'https://github.com/AliceMoro/prova.git/': The requested URL returned error: 403
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote rm origin
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ ^C
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git credential-cache exit
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote -v
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote --version
+error: unknown option `version'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote --verbose
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote rm origin
+fatal: No such remote: 'origin'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote add origin https://github.com/AliceMoro/prova.git
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch -M main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git push -u origin main
+remote: Permission to AliceMoro/prova.git denied to Alice-Moro.
+fatal: unable to access 'https://github.com/AliceMoro/prova.git/': The requested URL returned error: 403
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global user.name
+Alice Moro
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global user.email
+moro.alice97@gmail.com
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global user.name "AliceMoro"
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global user.name
+AliceMoro
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git credential-cache exit
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote rm origin
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote rm origin
+fatal: No such remote: 'origin'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote add origin https://github.com/AliceMoro/prova.git
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch -M main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git push -u origin main
+remote: Permission to AliceMoro/prova.git denied to Alice-Moro.
+fatal: unable to access 'https://github.com/AliceMoro/prova.git/': The requested URL returned error: 403
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git remote rm origin
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt update
+[sudo] password for alice: 
+Hit:1 http://it.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://it.archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]           
+Get:3 https://cli.github.com/packages stable InRelease [3.917 B]                     
+Hit:4 https://dl.google.com/linux/chrome/deb stable InRelease                        
+Get:5 http://security.ubuntu.com/ubuntu focal-security InRelease [128 kB]            
+Err:3 https://cli.github.com/packages stable InRelease                               
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059
+Hit:6 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal InRelease                 
+Get:7 http://it.archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB]
+Get:8 http://it.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [276 kB]
+Get:9 http://it.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 DEP-11 Metadata [212 B]
+Get:10 http://it.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [446 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [65,3 kB]
+Get:12 http://it.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Get:13 http://it.archive.ubuntu.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [7.984 B]
+Get:14 http://it.archive.ubuntu.com/ubuntu focal-backports/restricted amd64 DEP-11 Metadata [212 B]
+Get:15 http://it.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30,5 kB]
+Get:16 http://it.archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 DEP-11 Metadata [212 B]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 DEP-11 Metadata [212 B]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [159 kB]
+Get:19 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [940 B]
+Traceback (most recent call last):                                      
+  File "/usr/lib/cnf-update-db", line 8, in <module>
+    from CommandNotFound.db.creator import DbCreator
+  File "/usr/lib/python3/dist-packages/CommandNotFound/db/creator.py", line 12, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+Reading package lists... Done
+W: GPG error: https://cli.github.com/packages stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059
+E: The repository 'https://cli.github.com/packages stable InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: Problem executing scripts APT::Update::Post-Invoke-Success 'if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi'
+E: Sub-process returned an error code
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ seahorse -v
+seahorse 3.36
+GNUPG: /usr/bin/gpg (2.2.19)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt install seahorse
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+seahorse is already the newest version (3.36-1).
+seahorse set to manually installed.
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1 linux-headers-5.13.0-37-generic
+  linux-hwe-5.13-headers-5.13.0-37 linux-image-5.13.0-37-generic
+  linux-modules-5.13.0-37-generic linux-modules-extra-5.13.0-37-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 339 not upgraded.
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ seahorse
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git config --global user.name
+AliceMoro
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git branch
+  UpdateText
+* main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ gedit ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ source ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:~/Desktop/PhD/1st_year/prova_gitmain$ gedit ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:~/Desktop/PhD/1st_year/prova_gitmain$ source ~/.bashrc
+mainalice@alice-HP-Laptop-15s-eq1xxx:prova_git$(parse_git_branch)$ gedit ~/.bashrc &
+[1] 69852
+mainalice@alice-HP-Laptop-15s-eq1xxx:prova_git$(parse_git_branch)$ source ~/.bashrc
+main\[\e]0;\u@\h: \w\a\]$(parse_git_branch)$PS1source ~/.bashrc
+main$ PS1source ~/.bashrc
+mainalice@alice-HP-Laptop-15s-eq1xxx:prova_git$(parse_git_branch)$ source ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$parse_git_branch$ source ~/.bashrc
+\parse_git_branchalice@alice-HP-Laptop-15s-eq1xxx:prova_git\parse_git_branch $ source ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$parse_git_branch$ source ~/.bashrc
+ alice@alice-HP-Laptop-15s-eq1xxx:prova_git$parse_git_branch $ source ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$parse_git_branch $ source ~/.bashrc
+$ parse_git_branchalice@alice-HP-Laptop-15s-eq1xxx:prova_git$parse_git_branch $ source ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git$parse_git_branch $ source ~/.bashrc
+\parse_git_branchalice@alice-HP-Laptop-15s-eq1xxx:prova_git$parse_git_branch $ ^C
+\parse_git_branchalice@alice-HP-Laptop-15s-eq1xxx:prova_git$parse_git_branch $ source ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git (main) $ source ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ cd ..
+alice@alice-HP-Laptop-15s-eq1xxx:1st_year$ cd prova_git/
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git branch
+  UpdateText
+* main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ history | grep --global
+grep: unrecognized option '--global'
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ history | grep global
+ 2016  git config --global user.name "Alice Moro"
+ 2017  git config --global user.email moro.alice97@gmail.com
+ 2018  git config --global init.default branch main
+ 2032  git config --global init.default branch main
+ 2125  git config --global user.name
+ 2126  git config --global user.email
+ 2127  git config --global user.name "AliceMoro"
+ 2128  git config --global user.name
+ 2139  git config --global user.name
+ 2150  history | grep --global
+ 2151  history | grep global
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git status
+On branch main
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote rm origin
+fatal: No such remote: 'origin'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote rm origin
+fatal: No such remote: 'origin'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git config --global user.name
+AliceMoro
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git config --global user.email
+moro.alice97@gmail.com
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote add origin https://github.com/AliceMoro/prova.git
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git branch -M main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git push -u origin main
+remote: Permission to AliceMoro/prova.git denied to Alice-Moro.
+fatal: unable to access 'https://github.com/AliceMoro/prova.git/': The requested URL returned error: 403
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote -v
+origin	https://github.com/AliceMoro/prova.git (fetch)
+origin	https://github.com/AliceMoro/prova.git (push)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ gedit ~/.git-credentials
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ cat ~/.git-credentials
+cat: /home/alice/.git-credentials: No such file or directory
+[1]+  Done                    gedit ~/.bashrc
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ histoy | grep cache
+Traceback (most recent call last):
+  File "/usr/lib/command-not-found", line 28, in <module>
+    from CommandNotFound import CommandNotFound
+  File "/usr/lib/python3/dist-packages/CommandNotFound/CommandNotFound.py", line 19, in <module>
+    from CommandNotFound.db.db import SqliteDatabase
+  File "/usr/lib/python3/dist-packages/CommandNotFound/db/db.py", line 5, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ history | grep cache
+ 2036  git rm --cached test1.txt 
+ 2117  git credential-cache exit
+ 2129  git credential-cache exit
+ 2164  histoy | grep cache
+ 2165  history | grep cache
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git credential-cache exit
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote -v
+origin	https://github.com/AliceMoro/prova.git (fetch)
+origin	https://github.com/AliceMoro/prova.git (push)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote rm origin
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote -v
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ gedit tokens.txt &
+[1] 71855
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote -v
+[1]+  Done                    gedit tokens.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote -v
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote add origin https://github.com/AliceMoro/prova.git
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git branch -M main
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git push -u origin main
+remote: Permission to AliceMoro/prova.git denied to Alice-Moro.
+fatal: unable to access 'https://github.com/AliceMoro/prova.git/': The requested URL returned error: 403
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git remote -v
+origin	https://github.com/AliceMoro/prova.git (fetch)
+origin	https://github.com/AliceMoro/prova.git (push)
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ ^C
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ git config --global --unset credential.helper
+alice@alice-HP-Laptop-15s-eq1xxx:prova_git(main)$ 
