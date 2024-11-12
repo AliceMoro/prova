@@ -1,2 +1,2 @@
 Testo di prova 2
-Riga aggiunta da branch master
+Riga aggiunta in branch NewLine2
