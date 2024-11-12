@@ -1,1 +1,2 @@
 Testo di prova 2
+Riga aggiunta da branch master
