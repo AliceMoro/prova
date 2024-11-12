@@ -1,1 +1,2 @@
 Testo di prova 3
+Linea aggiunta dopo la creazione di un issue
