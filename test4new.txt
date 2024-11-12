@@ -1,1 +1,2 @@
 Testo di prova 4
+Riga aggiunta in branch NewLine4
