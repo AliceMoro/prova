@@ -1,0 +1,1012 @@
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ cd ../../..
+alice@alice-HP-Laptop-15s-eq1xxx:Desktop$ cd ..
+alice@alice-HP-Laptop-15s-eq1xxx:~$ pwd
+/home/alice
+alice@alice-HP-Laptop-15s-eq1xxx:~$ ls -lha
+total 248K
+drwxr-xr-x 30 alice alice 4,0K nov  7 17:01 .
+drwxr-xr-x  3 root  root  4,0K set  3  2021 ..
+drwxrwxr-x 28 alice alice 4,0K nov 14  2023 anaconda3
+-rw-rw-r--  1 alice alice   24 set  3  2021 .aspell.en.prepl
+-rw-rw-r--  1 alice alice   31 set  3  2021 .aspell.en.pws
+-rw-------  1 alice alice  45K nov  7 17:01 .bash_history
+-rw-r--r--  1 alice alice  220 set  3  2021 .bash_logout
+-rw-r--r--  1 alice alice 4,4K nov  5 14:28 .bashrc
+drwxr-xr-x 29 alice alice 4,0K ago 10 16:41 .cache
+drwx------  2 alice alice 4,0K set 23  2021 .cat_installer
+drwxrwxr-x  2 alice alice 4,0K set 20  2021 .conda
+-rw-rw-r--  1 alice alice   90 ago 10 17:12 .condarc
+drwx------ 30 alice alice 4,0K nov  5 15:05 .config
+drwxr-xr-x 12 alice alice 4,0K nov  7 09:42 Desktop
+drwxr-xr-x  3 alice alice 4,0K set 23 19:55 Documents
+drwxr-xr-x 11 alice alice 4,0K nov 11 17:01 Downloads
+-rw-rw-r--  1 alice alice  380 nov  5 13:54 .gitconfig
+drwx------  3 alice alice 4,0K ott 12  2023 .gnome
+drwx------  3 alice alice 4,0K nov  5 13:59 .gnupg
+-rw-------  1 alice alice 1,7K mar  3  2022 .gnuplot_history
+drwxrwxr-x  2 alice alice 4,0K ott 12  2023 .gphoto
+drwxr-xr-x  5 alice alice 4,0K set 20  2021 .ipython
+drwx------  5 alice alice 4,0K feb 24  2022 .kite
+drwxr-xr-x  3 alice alice 4,0K set  3  2021 .local
+drwxrwxr-x  2 alice alice 4,0K apr  5  2024 .mg5
+drwx------  5 alice alice 4,0K set  3  2021 .mozilla
+drwxr-xr-x  2 alice alice 4,0K set  3  2021 Music
+drwxr-xr-x  2 alice alice  12K nov  7 16:43 Pictures
+drwx------  3 alice alice 4,0K set 20  2021 .pki
+-rw-r--r--  1 alice alice  807 set  3  2021 .profile
+drwxr-xr-x  2 alice alice 4,0K set  3  2021 Public
+-rw-------  1 alice alice 2,7K dic 12  2023 .python_history
+-rw-rw-r--  1 alice alice 5,4K set 23 11:44 .root_hist
+drwx------  6 alice alice 4,0K nov  5 15:04 snap
+drwx------  2 alice alice 4,0K dic 11  2023 .ssh
+-rw-r--r--  1 alice alice    0 set  3  2021 .sudo_as_admin_successful
+drwxr-xr-x  2 alice alice 4,0K set  3  2021 Templates
+drwx------  6 alice alice 4,0K nov 15  2023 .thunderbird
+drwxr-xr-x  3 alice alice 4,0K nov 15  2023 .var
+drwxr-xr-x  2 alice alice 4,0K set  3  2021 Videos
+drwxr-xr-x  3 alice alice 4,0K gen 23  2022 .vim
+-rw-------  1 alice alice  17K mag  3  2024 .viminfo
+-rw-rw-r--  1 alice alice  200 ago 11 08:52 .wget-hsts
+drwx------  9 alice alice 4,0K ott  7 17:48 .zoom
+alice@alice-HP-Laptop-15s-eq1xxx:~$ rm .gitconfig 
+alice@alice-HP-Laptop-15s-eq1xxx:~$ ls -lha
+total 244K
+drwxr-xr-x 30 alice alice 4,0K nov 12 10:05 .
+drwxr-xr-x  3 root  root  4,0K set  3  2021 ..
+drwxrwxr-x 28 alice alice 4,0K nov 14  2023 anaconda3
+-rw-rw-r--  1 alice alice   24 set  3  2021 .aspell.en.prepl
+-rw-rw-r--  1 alice alice   31 set  3  2021 .aspell.en.pws
+-rw-------  1 alice alice  45K nov  7 17:01 .bash_history
+-rw-r--r--  1 alice alice  220 set  3  2021 .bash_logout
+-rw-r--r--  1 alice alice 4,4K nov  5 14:28 .bashrc
+drwxr-xr-x 29 alice alice 4,0K ago 10 16:41 .cache
+drwx------  2 alice alice 4,0K set 23  2021 .cat_installer
+drwxrwxr-x  2 alice alice 4,0K set 20  2021 .conda
+-rw-rw-r--  1 alice alice   90 ago 10 17:12 .condarc
+drwx------ 30 alice alice 4,0K nov  5 15:05 .config
+drwxr-xr-x 12 alice alice 4,0K nov  7 09:42 Desktop
+drwxr-xr-x  3 alice alice 4,0K set 23 19:55 Documents
+drwxr-xr-x 11 alice alice 4,0K nov 11 17:01 Downloads
+drwx------  3 alice alice 4,0K ott 12  2023 .gnome
+drwx------  3 alice alice 4,0K nov  5 13:59 .gnupg
+-rw-------  1 alice alice 1,7K mar  3  2022 .gnuplot_history
+drwxrwxr-x  2 alice alice 4,0K ott 12  2023 .gphoto
+drwxr-xr-x  5 alice alice 4,0K set 20  2021 .ipython
+drwx------  5 alice alice 4,0K feb 24  2022 .kite
+drwxr-xr-x  3 alice alice 4,0K set  3  2021 .local
+drwxrwxr-x  2 alice alice 4,0K apr  5  2024 .mg5
+drwx------  5 alice alice 4,0K set  3  2021 .mozilla
+drwxr-xr-x  2 alice alice 4,0K set  3  2021 Music
+drwxr-xr-x  2 alice alice  12K nov  7 16:43 Pictures
+drwx------  3 alice alice 4,0K set 20  2021 .pki
+-rw-r--r--  1 alice alice  807 set  3  2021 .profile
+drwxr-xr-x  2 alice alice 4,0K set  3  2021 Public
+-rw-------  1 alice alice 2,7K dic 12  2023 .python_history
+-rw-rw-r--  1 alice alice 5,4K set 23 11:44 .root_hist
+drwx------  6 alice alice 4,0K nov  5 15:04 snap
+drwx------  2 alice alice 4,0K dic 11  2023 .ssh
+-rw-r--r--  1 alice alice    0 set  3  2021 .sudo_as_admin_successful
+drwxr-xr-x  2 alice alice 4,0K set  3  2021 Templates
+drwx------  6 alice alice 4,0K nov 15  2023 .thunderbird
+drwxr-xr-x  3 alice alice 4,0K nov 15  2023 .var
+drwxr-xr-x  2 alice alice 4,0K set  3  2021 Videos
+drwxr-xr-x  3 alice alice 4,0K gen 23  2022 .vim
+-rw-------  1 alice alice  17K mag  3  2024 .viminfo
+-rw-rw-r--  1 alice alice  200 ago 11 08:52 .wget-hsts
+drwx------  9 alice alice 4,0K ott  7 17:48 .zoom
+alice@alice-HP-Laptop-15s-eq1xxx:~$ cd Desktop/PhD/1st_year/prova/
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ ls -lha
+total 88K
+drwxrwxr-x 3 alice alice 4,0K nov  5 14:53 .
+drwxrwxr-x 8 alice alice 4,0K nov 11 17:50 ..
+drwxrwxr-x 8 alice alice 4,0K nov  5 15:12 .git
+-rw-rw-r-- 1 alice alice  107 nov  5 11:54 .gitignore
+-rw-rw-r-- 1 alice alice  41K nov  5 14:53 terminal_output.txt
+-rw-rw-r-- 1 alice alice   30 nov  5 11:54 test1.txt
+-rw-rw-r-- 1 alice alice   77 nov  5 12:06 test2.txt
+-rw-rw-r-- 1 alice alice   48 nov  5 12:00 test3.txt
+-rw-rw-r-- 1 alice alice    6 nov  5 11:54 test4_new_name.txt
+-rw-rw-r-- 1 alice alice   10 nov  5 11:35 test5.dat
+-rw-rw-r-- 1 alice alice   10 nov  5 11:35 test6.dat
+-rw-rw-r-- 1 alice alice   71 nov  5 14:47 tokens.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ rm -r .git
+rm: remove write-protected regular file '.git/objects/6b/98fc5033ddaf4c2f8130630282119f91679871'? 
+rm: cannot remove '.git/objects/6b': Directory not empty
+rm: remove write-protected regular file '.git/objects/66/177028fc0ef5076fd64602cf87d1b6dda82f6e'? yes
+rm: remove write-protected regular file '.git/objects/3b/285e9c5785fbb99cbd7160e776e4dc2de15965'? yes
+rm: remove write-protected regular file '.git/objects/31/f7004bfe0371766571d87c28b9a5743b8fa1dd'? yes
+rm: remove write-protected regular file '.git/objects/94/5c09066bfd127dc1fa36848a25f454a5e092a7'? yes
+rm: remove write-protected regular file '.git/objects/ca/5e30880ddd78c19c51893a02a94ce85323b257'? yes
+rm: remove write-protected regular file '.git/objects/88/89a597edcc4538409d96faf1ec0cc7e50dc10c'? yes
+rm: remove write-protected regular file '.git/objects/49/f35316c5fd18381817753d3b83b0aff88b4d76'? yes 
+rm: remove write-protected regular file '.git/objects/f7/44dfa2834f5f1f254644069e1a989dbddc168e'? yes
+rm: remove write-protected regular file '.git/objects/d6/3acd5c8c44daf8f2fa567578df587642d63588'? yes
+rm: remove write-protected regular file '.git/objects/9f/72dff1ce733bb9756ee6d0ca2118bec9131e34'? yes
+rm: remove write-protected regular file '.git/objects/03/a98aabc1eb84e970f56b9b09b998678887f2f0'? 
+rm: cannot remove '.git/objects/03': Directory not empty
+rm: remove write-protected regular file '.git/objects/8e/399757ff52944d92e29e48eb980dee95ae8fa6'? 
+rm: cannot remove '.git/objects/8e': Directory not empty
+rm: remove write-protected regular file '.git/objects/7b/02814a21e5b76c2331ee60ba0ba121cc84d2a5'? 
+rm: cannot remove '.git/objects/7b': Directory not empty
+rm: remove write-protected regular file '.git/objects/51/882b428fe2d31fc7e3480da2e2cfcaba0cdb9f'? yes
+rm: remove write-protected regular file '.git/objects/50/0a53da031776f95da133658a18f72a17d300c2'? yes
+rm: remove write-protected regular file '.git/objects/a2/1ca1fd2063c84aef5c514d1d2cf16fa126413b'? yes
+rm: remove write-protected regular file '.git/objects/01/df5b2e126d246218285253b49f5ce105558a97'? yes
+rm: remove write-protected regular file '.git/objects/ec/58335bf50610160a3db8b570450cdd72f5e562'? yes
+rm: remove write-protected regular file '.git/objects/86/67f734e26d16c8765c9ac721610186965610ee'? yes
+rm: remove write-protected regular file '.git/objects/82/da1851dc6632eb9e9b0541de272aa31cc3cc84'? yte
+rm: remove write-protected regular file '.git/objects/73/afb32a3deea8f5f4b3537609c7d05152d33a64'? 
+rm: cannot remove '.git/objects/73': Directory not empty
+rm: remove write-protected regular file '.git/objects/f8/aa150f81c99584a5efd6975086cf2151f56da5'? y
+rm: remove write-protected regular file '.git/objects/85/a212c70ea7ea62a4b2070cb9c3bedc8bca34ff'? y
+rm: remove write-protected regular file '.git/objects/b7/30257248b2b393ee5371656a4fadf71180e6e9'? y
+rm: remove write-protected regular file '.git/objects/c0/f930cb501c22aa42d7bbb1f43c393390ec5ac9'? y
+rm: remove write-protected regular file '.git/objects/36/410316a69a67e0c3ae3602186084d38b380313'? y
+rm: remove write-protected regular file '.git/objects/81/484368c032e0e9a3fa557b6549141565f566e1'? y
+rm: remove write-protected regular file '.git/objects/da/b427758422c1408c3b98cb73fe2b597f4e0722'? y
+rm: remove write-protected regular file '.git/objects/d4/81e3314e600bf0e9e1584b2e1639ec8211b9d3'? y
+rm: remove write-protected regular file '.git/objects/12/4a16b70447866c5fd3ede87b89d4d243ff524b'? y
+rm: remove write-protected regular file '.git/objects/f4/8edda0a7ef4f3c096da5fead0d5178af764a94'? y
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ ls -lha
+total 88K
+drwxrwxr-x 3 alice alice 4,0K nov  5 14:53 .
+drwxrwxr-x 8 alice alice 4,0K nov 11 17:50 ..
+drwxrwxr-x 3 alice alice 4,0K nov 12 10:07 .git
+-rw-rw-r-- 1 alice alice  107 nov  5 11:54 .gitignore
+-rw-rw-r-- 1 alice alice  41K nov  5 14:53 terminal_output.txt
+-rw-rw-r-- 1 alice alice   30 nov  5 11:54 test1.txt
+-rw-rw-r-- 1 alice alice   77 nov  5 12:06 test2.txt
+-rw-rw-r-- 1 alice alice   48 nov  5 12:00 test3.txt
+-rw-rw-r-- 1 alice alice    6 nov  5 11:54 test4_new_name.txt
+-rw-rw-r-- 1 alice alice   10 nov  5 11:35 test5.dat
+-rw-rw-r-- 1 alice alice   10 nov  5 11:35 test6.dat
+-rw-rw-r-- 1 alice alice   71 nov  5 14:47 tokens.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ cd .git/
+alice@alice-HP-Laptop-15s-eq1xxx:.git$ ls -lha
+total 12K
+drwxrwxr-x 3 alice alice 4,0K nov 12 10:07 .
+drwxrwxr-x 3 alice alice 4,0K nov  5 14:53 ..
+drwxrwxr-x 7 alice alice 4,0K nov 12 10:07 objects
+alice@alice-HP-Laptop-15s-eq1xxx:.git$ cd ..
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ rm -r .git
+rm: remove write-protected regular file '.git/objects/6b/98fc5033ddaf4c2f8130630282119f91679871'? y
+rm: remove write-protected regular file '.git/objects/03/a98aabc1eb84e970f56b9b09b998678887f2f0'? y
+rm: remove write-protected regular file '.git/objects/8e/399757ff52944d92e29e48eb980dee95ae8fa6'? y
+rm: remove write-protected regular file '.git/objects/7b/02814a21e5b76c2331ee60ba0ba121cc84d2a5'? y
+rm: remove write-protected regular file '.git/objects/73/afb32a3deea8f5f4b3537609c7d05152d33a64'? y
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ ls -lha
+total 84K
+drwxrwxr-x 2 alice alice 4,0K nov 12 10:07 .
+drwxrwxr-x 8 alice alice 4,0K nov 11 17:50 ..
+-rw-rw-r-- 1 alice alice  107 nov  5 11:54 .gitignore
+-rw-rw-r-- 1 alice alice  41K nov  5 14:53 terminal_output.txt
+-rw-rw-r-- 1 alice alice   30 nov  5 11:54 test1.txt
+-rw-rw-r-- 1 alice alice   77 nov  5 12:06 test2.txt
+-rw-rw-r-- 1 alice alice   48 nov  5 12:00 test3.txt
+-rw-rw-r-- 1 alice alice    6 nov  5 11:54 test4_new_name.txt
+-rw-rw-r-- 1 alice alice   10 nov  5 11:35 test5.dat
+-rw-rw-r-- 1 alice alice   10 nov  5 11:35 test6.dat
+-rw-rw-r-- 1 alice alice   71 nov  5 14:47 tokens.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ rm .gitignore 
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ ls -lha
+total 80K
+drwxrwxr-x 2 alice alice 4,0K nov 12 10:08 .
+drwxrwxr-x 8 alice alice 4,0K nov 11 17:50 ..
+-rw-rw-r-- 1 alice alice  41K nov  5 14:53 terminal_output.txt
+-rw-rw-r-- 1 alice alice   30 nov  5 11:54 test1.txt
+-rw-rw-r-- 1 alice alice   77 nov  5 12:06 test2.txt
+-rw-rw-r-- 1 alice alice   48 nov  5 12:00 test3.txt
+-rw-rw-r-- 1 alice alice    6 nov  5 11:54 test4_new_name.txt
+-rw-rw-r-- 1 alice alice   10 nov  5 11:35 test5.dat
+-rw-rw-r-- 1 alice alice   10 nov  5 11:35 test6.dat
+-rw-rw-r-- 1 alice alice   71 nov  5 14:47 tokens.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ cd .
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ sudo apt-get purge git
+[sudo] password for alice: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 git-man liberror-perl libfwupdplugin1 libxmlb1
+  linux-headers-5.13.0-37-generic linux-hwe-5.13-headers-5.13.0-37
+  linux-image-5.13.0-37-generic linux-modules-5.13.0-37-generic
+  linux-modules-extra-5.13.0-37-generic
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  git*
+0 upgraded, 0 newly installed, 1 to remove and 340 not upgraded.
+After this operation, 36,9 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 241002 files and directories currently installed.)
+Removing git (1:2.25.1-1ubuntu3.13) ...
+(Reading database ... 240255 files and directories currently installed.)
+Purging configuration files for git (1:2.25.1-1ubuntu3.13) ...
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ sudo apt-get autoremove
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages will be REMOVED:
+  gir1.2-goa-1.0 git-man liberror-perl libfwupdplugin1 libxmlb1
+  linux-headers-5.13.0-37-generic linux-hwe-5.13-headers-5.13.0-37
+  linux-image-5.13.0-37-generic linux-modules-5.13.0-37-generic
+  linux-modules-extra-5.13.0-37-generic
+0 upgraded, 0 newly installed, 10 to remove and 339 not upgraded.
+After this operation, 510 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 240254 files and directories currently installed.)
+Removing gir1.2-goa-1.0:amd64 (3.36.1-0ubuntu1) ...
+Removing git-man (1:2.25.1-1ubuntu3.11) ...
+Removing liberror-perl (0.17029-1) ...
+Removing libfwupdplugin1:amd64 (1.5.11-0ubuntu1~20.04.2) ...
+Removing libxmlb1:amd64 (0.1.15-2ubuntu1~20.04.1) ...
+Removing linux-headers-5.13.0-37-generic (5.13.0-37.42~20.04.1) ...
+Removing linux-hwe-5.13-headers-5.13.0-37 (5.13.0-37.42~20.04.1) ...
+Removing linux-modules-extra-5.13.0-37-generic (5.13.0-37.42~20.04.1) ...
+Removing linux-image-5.13.0-37-generic (5.13.0-37.42~20.04.1) ...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.13.0-37-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-83-generic
+Found initrd image: /boot/initrd.img-5.15.0-83-generic
+Found linux image: /boot/vmlinuz-5.13.0-39-generic
+Found initrd image: /boot/initrd.img-5.13.0-39-generic
+Found Windows Boot Manager on /dev/nvme0n1p1@/EFI/Microsoft/Boot/bootmgfw.efi
+Adding boot menu entry for UEFI Firmware Settings
+done
+Removing linux-modules-5.13.0-37-generic (5.13.0-37.42~20.04.1) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ gedit test1.txt test2.txt test3.txt test4.txt test5.dat test6.dat &
+[1] 80657
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ ls -lha
+total 80K
+drwxrwxr-x 2 alice alice 4,0K nov 12 10:12 .
+drwxrwxr-x 8 alice alice 4,0K nov 11 17:50 ..
+-rw-rw-r-- 1 alice alice  41K nov  5 14:53 terminal_output_1.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test1.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test2.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test3.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test4.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:12 test5.dat
+-rw-rw-r-- 1 alice alice   17 nov 12 10:12 test6.dat
+-rw-rw-r-- 1 alice alice   71 nov  5 14:47 tokens.txt
+[1]+  Done                    gedit test1.txt test2.txt test3.txt test4.txt test5.dat test6.dat
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ cd ../../..
+alice@alice-HP-Laptop-15s-eq1xxx:Desktop$ cd HSF_20231113-14/
+alice@alice-HP-Laptop-15s-eq1xxx:HSF_20231113-14$ ls -lh
+total 84K
+drwxrwxr-x 5 alice alice 4,0K nov 14  2023 git_1_marco_mambelli
+-rw-rw-r-- 1 alice alice  65K nov 14  2023 photo_2023-11-14_15-03-42.jpg
+drwxrwxr-x 3 alice alice 4,0K nov 14  2023 python_1_roy_cruz_candelaria
+drwxrwxr-x 2 alice alice 4,0K nov 14  2023 python_2_guillermo_antonio_fidalgo_rodriguez
+drwxrwxr-x 3 alice alice 4,0K nov 17  2023 unix_wouter_deconinck
+alice@alice-HP-Laptop-15s-eq1xxx:HSF_20231113-14$ cd git_1_marco_mambelli/
+alice@alice-HP-Laptop-15s-eq1xxx:git_1_marco_mambelli$ ls -lh
+total 16K
+-rw-rw-r-- 1 alice alice  319 nov 14  2023 git_tutorial.txt
+drwxrwxr-x 3 alice alice 4,0K nov 14  2023 newdir
+drwxrwxr-x 4 alice alice 4,0K nov 14  2023 planets
+drwxrwxr-x 7 alice alice 4,0K nov 14  2023 planetsmath
+alice@alice-HP-Laptop-15s-eq1xxx:git_1_marco_mambelli$ cd planets
+alice@alice-HP-Laptop-15s-eq1xxx:planets$ ls -lh
+total 16K
+-rw-rw-r-- 1 alice alice  178 nov 14  2023 mars.txt
+-rw-rw-r-- 1 alice alice   71 nov 14  2023 mars.txt.save
+-rw-rw-r-- 1 alice alice   21 nov 14  2023 pluto.txt
+drwxrwxr-x 2 alice alice 4,0K nov 14  2023 spaceships
+alice@alice-HP-Laptop-15s-eq1xxx:planets$ cd ..
+alice@alice-HP-Laptop-15s-eq1xxx:git_1_marco_mambelli$ cd ..
+alice@alice-HP-Laptop-15s-eq1xxx:HSF_20231113-14$ cd..
+Traceback (most recent call last):
+  File "/usr/lib/command-not-found", line 28, in <module>
+    from CommandNotFound import CommandNotFound
+  File "/usr/lib/python3/dist-packages/CommandNotFound/CommandNotFound.py", line 19, in <module>
+    from CommandNotFound.db.db import SqliteDatabase
+  File "/usr/lib/python3/dist-packages/CommandNotFound/db/db.py", line 5, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+alice@alice-HP-Laptop-15s-eq1xxx:HSF_20231113-14$ cd ..
+alice@alice-HP-Laptop-15s-eq1xxx:Desktop$ cd PhD/1st_year/prova/
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ ls -lh
+total 72K
+-rw-rw-r-- 1 alice alice 41K nov  5 14:53 terminal_output_1.txt
+-rw-rw-r-- 1 alice alice  17 nov 12 10:11 test1.txt
+-rw-rw-r-- 1 alice alice  17 nov 12 10:11 test2.txt
+-rw-rw-r-- 1 alice alice  17 nov 12 10:11 test3.txt
+-rw-rw-r-- 1 alice alice  17 nov 12 10:11 test4.txt
+-rw-rw-r-- 1 alice alice  17 nov 12 10:12 test5.dat
+-rw-rw-r-- 1 alice alice  17 nov 12 10:12 test6.dat
+-rw-rw-r-- 1 alice alice  71 nov  5 14:47 tokens.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ cd ../../../../Downloads/
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ ls -lha
+total 1,3G
+drwxr-xr-x 11 alice alice 4,0K nov 11 17:01  .
+drwxr-xr-x 30 alice alice 4,0K nov 12 10:05  ..
+-rw-rw-r--  1 alice alice 545M set 20  2021  Anaconda3-2021.05-Linux-x86_64.sh
+-rw-rw-r--  1 alice alice  52K lug 29 14:59  attestato_referendum_autonomia_differenziata.pdf
+drwxrwxr-x  2 alice alice 4,0K ott 11 09:24  borsa_studio_banca
+-rw-rw-r--  1 alice alice  96M mar  4  2024  code_1.87.0-1709078641_amd64.deb
+-rw-rw-r--  1 alice alice 4,0K nov 15  2023  com.github.alainm23.planner.flatpakref
+-rw-rw-r--  1 alice alice  28M ago  3 09:21  Deliot_MoriondEW22-summary.pdf
+-rw-rw-r--  1 alice alice  44K gen 17  2024  eduroam-linux-unipd_it.py
+-rw-rw-r--  1 alice alice  12K feb 23  2022  Exam_2_marks.pdf
+-rw-rw-r--  1 alice alice 5,7K dic 14  2023  example.cc
+-rw-rw-r--  1 alice alice 983K ago 23 15:41 'Fisica 7 esercizi.pdf'
+-rw-rw-r--  1 alice alice 102M mar  5  2024  google-chrome-stable_current_amd64.deb
+drwxrwxr-x  2 alice alice 4,0K set  3 17:38 'Idee loghi'
+-rw-rw-r--  1 alice alice  55K set 19 10:30  issuer.json
+-rw-rw-r--  1 alice alice 3,9M ago 30 17:23 'JHEP02(2022)142.pdf'
+-rw-rw-r--  1 alice alice  31M set 20  2021  lise-app_15.23.9-1+0_20210913202504.36+debian10_1.gbp515173_all.deb
+drwxrwxr-x  2 alice alice 4,0K set  3 18:43 'Loghi nuovi'
+drwxrwxr-x  2 alice alice 4,0K set  4 10:53 'Loghi scritta'
+drwxrwxr-x  2 alice alice 4,0K set  3 17:38 'Loghi senza sfondo'
+-rw-rw-r--  1 alice alice 120K set  5 11:35  logo_fisica_astro_unipd.jpg
+drwxrwxr-x  2 alice alice 4,0K set  3 18:53 'Logo scritta'
+-rw-rw-r--  1 alice alice 577K mag 10  2024  Moro_Alice_Masters_Thesis_Project_CON_FIRMA.pdf
+-rw-rw-r--  1 alice alice 2,6M ago 11 11:24  orsdipani_tesi.pdf
+drwxr-xr-x 11 alice alice 4,0K nov  7  2023  pythia8310
+-rw-rw-r--  1 alice alice  28M nov  5  2023  pythia8310.tgz
+-rw-rw-r--  1 alice alice 1,3M ago 26 15:52 'Ripasso equilibrio.pdf'
+-rw-rw-r--  1 alice alice 2,9M ago 27 15:32 'Ripasso fluidi.pdf'
+-rw-rw-r--  1 alice alice 198K giu  6 12:30 'ROIS - TECHNOLOGY QUALIFICATION & RELIABILITY ENGINEER_Venezia.pdf'
+drwxr-xr-x 17 alice alice 4,0K giu 18 06:53  root
+-rw-rw-r--  1 alice alice 288M giu 18 09:32  root_v6.32.02.Linux-ubuntu20.04-x86_64-gcc9.4.tar.gz
+drwxrwxr-x  2 alice alice  12K nov 11 17:49 'Telegram Desktop'
+-rw-rw-r--  1 alice alice 3,8M lug 31 12:02 'WhatsApp Video 2024-07-31 at 11.56.43.mp4'
+-rw-rw-r--  1 alice alice 2,4M nov  8 10:03  WIFAISlides.pdf
+-rw-rw-r--  1 alice alice 192M apr 23  2024  zoom_amd64.deb
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ rm com.github.alainm23.planner.flatpakref 
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ cd ../Desktop/PhD/1st_year/prova/
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ ls -lha
+total 80K
+drwxrwxr-x 2 alice alice 4,0K nov 12 10:12 .
+drwxrwxr-x 8 alice alice 4,0K nov 11 17:50 ..
+-rw-rw-r-- 1 alice alice  41K nov  5 14:53 terminal_output_1.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test1.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test2.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test3.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test4.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:12 test5.dat
+-rw-rw-r-- 1 alice alice   17 nov 12 10:12 test6.dat
+-rw-rw-r-- 1 alice alice   71 nov  5 14:47 tokens.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ cd ../../../../Downloads/
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ apt-get install git
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ ls -lha
+total 1,3G
+drwxr-xr-x 11 alice alice 4,0K nov 12 10:22  .
+drwxr-xr-x 30 alice alice 4,0K nov 12 10:05  ..
+-rw-rw-r--  1 alice alice 545M set 20  2021  Anaconda3-2021.05-Linux-x86_64.sh
+-rw-rw-r--  1 alice alice  52K lug 29 14:59  attestato_referendum_autonomia_differenziata.pdf
+drwxrwxr-x  2 alice alice 4,0K ott 11 09:24  borsa_studio_banca
+-rw-rw-r--  1 alice alice  96M mar  4  2024  code_1.87.0-1709078641_amd64.deb
+-rw-rw-r--  1 alice alice  28M ago  3 09:21  Deliot_MoriondEW22-summary.pdf
+-rw-rw-r--  1 alice alice  44K gen 17  2024  eduroam-linux-unipd_it.py
+-rw-rw-r--  1 alice alice  12K feb 23  2022  Exam_2_marks.pdf
+-rw-rw-r--  1 alice alice 5,7K dic 14  2023  example.cc
+-rw-rw-r--  1 alice alice 983K ago 23 15:41 'Fisica 7 esercizi.pdf'
+-rw-rw-r--  1 alice alice 102M mar  5  2024  google-chrome-stable_current_amd64.deb
+drwxrwxr-x  2 alice alice 4,0K set  3 17:38 'Idee loghi'
+-rw-rw-r--  1 alice alice  55K set 19 10:30  issuer.json
+-rw-rw-r--  1 alice alice 3,9M ago 30 17:23 'JHEP02(2022)142.pdf'
+-rw-rw-r--  1 alice alice  31M set 20  2021  lise-app_15.23.9-1+0_20210913202504.36+debian10_1.gbp515173_all.deb
+drwxrwxr-x  2 alice alice 4,0K set  3 18:43 'Loghi nuovi'
+drwxrwxr-x  2 alice alice 4,0K set  4 10:53 'Loghi scritta'
+drwxrwxr-x  2 alice alice 4,0K set  3 17:38 'Loghi senza sfondo'
+-rw-rw-r--  1 alice alice 120K set  5 11:35  logo_fisica_astro_unipd.jpg
+drwxrwxr-x  2 alice alice 4,0K set  3 18:53 'Logo scritta'
+-rw-rw-r--  1 alice alice 577K mag 10  2024  Moro_Alice_Masters_Thesis_Project_CON_FIRMA.pdf
+-rw-rw-r--  1 alice alice 2,6M ago 11 11:24  orsdipani_tesi.pdf
+drwxr-xr-x 11 alice alice 4,0K nov  7  2023  pythia8310
+-rw-rw-r--  1 alice alice  28M nov  5  2023  pythia8310.tgz
+-rw-rw-r--  1 alice alice 1,3M ago 26 15:52 'Ripasso equilibrio.pdf'
+-rw-rw-r--  1 alice alice 2,9M ago 27 15:32 'Ripasso fluidi.pdf'
+-rw-rw-r--  1 alice alice 198K giu  6 12:30 'ROIS - TECHNOLOGY QUALIFICATION & RELIABILITY ENGINEER_Venezia.pdf'
+drwxr-xr-x 17 alice alice 4,0K giu 18 06:53  root
+-rw-rw-r--  1 alice alice 288M giu 18 09:32  root_v6.32.02.Linux-ubuntu20.04-x86_64-gcc9.4.tar.gz
+drwxrwxr-x  2 alice alice  12K nov 11 17:49 'Telegram Desktop'
+-rw-rw-r--  1 alice alice 3,8M lug 31 12:02 'WhatsApp Video 2024-07-31 at 11.56.43.mp4'
+-rw-rw-r--  1 alice alice 2,4M nov  8 10:03  WIFAISlides.pdf
+-rw-rw-r--  1 alice alice 192M apr 23  2024  zoom_amd64.deb
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ sudo apt-get install git
+[sudo] password for alice: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 339 not upgraded.
+Need to get 913 kB/5.525 kB of archives.
+After this operation, 38,8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://it.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26,5 kB]
+Get:2 http://it.archive.ubuntu.com/ubuntu focal-updates/main amd64 git-man all 1:2.25.1-1ubuntu3.13 [887 kB]
+Fetched 913 kB in 1s (958 kB/s)  
+Selecting previously unselected package liberror-perl.
+(Reading database ... 205061 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
+Unpacking liberror-perl (0.17029-1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.25.1-1ubuntu3.13_all.deb ...
+Unpacking git-man (1:2.25.1-1ubuntu3.13) ...
+Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.25.1-1ubuntu3.13_amd64.deb ...
+Unpacking git (1:2.25.1-1ubuntu3.13) ...
+Setting up liberror-perl (0.17029-1) ...
+Setting up git-man (1:2.25.1-1ubuntu3.13) ...
+Setting up git (1:2.25.1-1ubuntu3.13) ...
+Processing triggers for man-db (2.9.1-1) ...
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ git config --global user.name "AliceMoro"
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ git config --global user.email moro.alice97@gmail.com
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ git config --global init.default branch main
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ git config -h
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ git help config
+alice@alice-HP-Laptop-15s-eq1xxx:Downloads$ cd ../Desktop/PhD/1st_year/prova/
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git init
+Initialized empty Git repository in /home/alice/Desktop/PhD/1st_year/prova/.git/
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ ls -lha
+total 84K
+drwxrwxr-x 3 alice alice 4,0K nov 12 10:41 .
+drwxrwxr-x 8 alice alice 4,0K nov 11 17:50 ..
+drwxrwxr-x 7 alice alice 4,0K nov 12 10:41 .git
+-rw-rw-r-- 1 alice alice  41K nov  5 14:53 terminal_output_1.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test1.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test2.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test3.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:11 test4.txt
+-rw-rw-r-- 1 alice alice   17 nov 12 10:12 test5.dat
+-rw-rw-r-- 1 alice alice   17 nov 12 10:12 test6.dat
+-rw-rw-r-- 1 alice alice   71 nov  5 14:47 tokens.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ cd .git/
+alice@alice-HP-Laptop-15s-eq1xxx:.git$ ls -lha
+total 40K
+drwxrwxr-x 7 alice alice 4,0K nov 12 10:41 .
+drwxrwxr-x 3 alice alice 4,0K nov 12 10:41 ..
+drwxrwxr-x 2 alice alice 4,0K nov 12 10:41 branches
+-rw-rw-r-- 1 alice alice   92 nov 12 10:41 config
+-rw-rw-r-- 1 alice alice   73 nov 12 10:41 description
+-rw-rw-r-- 1 alice alice   23 nov 12 10:41 HEAD
+drwxrwxr-x 2 alice alice 4,0K nov 12 10:41 hooks
+drwxrwxr-x 2 alice alice 4,0K nov 12 10:41 info
+drwxrwxr-x 4 alice alice 4,0K nov 12 10:41 objects
+drwxrwxr-x 4 alice alice 4,0K nov 12 10:41 refs
+alice@alice-HP-Laptop-15s-eq1xxx:.git$ cd ..
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	terminal_output_1.txt
+	test1.txt
+	test2.txt
+	test3.txt
+	test4.txt
+	test5.dat
+	test6.dat
+	tokens.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git add test1.txt 
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   test1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	terminal_output_1.txt
+	test2.txt
+	test3.txt
+	test4.txt
+	test5.dat
+	test6.dat
+	tokens.txt
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ gir rm --cached test1.txt 
+Traceback (most recent call last):
+  File "/usr/lib/command-not-found", line 28, in <module>
+    from CommandNotFound import CommandNotFound
+  File "/usr/lib/python3/dist-packages/CommandNotFound/CommandNotFound.py", line 19, in <module>
+    from CommandNotFound.db.db import SqliteDatabase
+  File "/usr/lib/python3/dist-packages/CommandNotFound/db/db.py", line 5, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git rm --cached test1.txt 
+rm 'test1.txt'
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	terminal_output_1.txt
+	test1.txt
+	test2.txt
+	test3.txt
+	test4.txt
+	test5.dat
+	test6.dat
+	tokens.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ gedit .gitignore
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	terminal_output_1.txt
+	test1.txt
+	test2.txt
+	test3.txt
+	test4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git add .
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   terminal_output_1.txt
+	new file:   test1.txt
+	new file:   test2.txt
+	new file:   test3.txt
+	new file:   test4.txt
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova$ git commit -m "First commit - committing all files to the repository"
+[master (root-commit) 1ba67b7] First commit - committing all files to the repository
+ 6 files changed, 894 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 terminal_output_1.txt
+ create mode 100644 test1.txt
+ create mode 100644 test2.txt
+ create mode 100644 test3.txt
+ create mode 100644 test4.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git config --global init.default branch main
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ gi status
+Traceback (most recent call last):
+  File "/usr/lib/command-not-found", line 28, in <module>
+    from CommandNotFound import CommandNotFound
+  File "/usr/lib/python3/dist-packages/CommandNotFound/CommandNotFound.py", line 19, in <module>
+    from CommandNotFound.db.db import SqliteDatabase
+  File "/usr/lib/python3/dist-packages/CommandNotFound/db/db.py", line 5, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ gedit test1.txt &
+[1] 83734
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   test1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1]+  Done                    gedit test1.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git diff
+diff --git a/test1.txt b/test1.txt
+index 3ff7d75..de99bb7 100644
+--- a/test1.txt
++++ b/test1.txt
+@@ -1 +1,2 @@
+ Testo di prova 1
++Riga aggiunta
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git add test1.txt 
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   test1.txt
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git restore --staged test1.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   test1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git commit -a -m "Second line added to test1.txt"
+[master 0236950] Second line added to test1.txt
+ 1 file changed, 1 insertion(+)
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    test4.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git restore "test4.txt"
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git mv "test4.txt" "test4new.txt"
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	renamed:    test4.txt -> test4new.txt
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git commit -m "Changed name of test4"
+[master e31e8b5] Changed name of test4
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename test4.txt => test4new.txt (100%)
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git status
+On branch master
+nothing to commit, working tree clean
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git log
+commit e31e8b522823353a674af49eba5e8e210e520098 (HEAD -> master)
+Author: AliceMoro <moro.alice97@gmail.com>
+Date:   Tue Nov 12 10:56:13 2024 +0100
+
+    Changed name of test4
+
+commit 0236950f69a7e608fe346f2fefa3f928d03a902c
+Author: AliceMoro <moro.alice97@gmail.com>
+Date:   Tue Nov 12 10:53:21 2024 +0100
+
+    Second line added to test1.txt
+
+commit 1ba67b737d5a8a55e2700a8e231d82351e2e3d73
+Author: AliceMoro <moro.alice97@gmail.com>
+Date:   Tue Nov 12 10:49:04 2024 +0100
+
+    First commit - committing all files to the repository
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git log --oneline
+e31e8b5 (HEAD -> master) Changed name of test4
+0236950 Second line added to test1.txt
+1ba67b7 First commit - committing all files to the repository
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git commit -m "Changed filename of test4.txt" --amend
+[master 52a9ebb] Changed filename of test4.txt
+ Date: Tue Nov 12 10:56:13 2024 +0100
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename test4.txt => test4new.txt (100%)
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git log --oneline
+52a9ebb (HEAD -> master) Changed filename of test4.txt
+0236950 Second line added to test1.txt
+1ba67b7 First commit - committing all files to the repository
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git log -p
+commit 52a9ebbfc621a96e534f86b7fe4a6f14a642850a (HEAD -> master)
+Author: AliceMoro <moro.alice97@gmail.com>
+Date:   Tue Nov 12 10:56:13 2024 +0100
+
+    Changed filename of test4.txt
+
+diff --git a/test4.txt b/test4new.txt
+similarity index 100%
+rename from test4.txt
+rename to test4new.txt
+
+commit 0236950f69a7e608fe346f2fefa3f928d03a902c
+Author: AliceMoro <moro.alice97@gmail.com>
+Date:   Tue Nov 12 10:53:21 2024 +0100
+
+    Second line added to test1.txt
+
+diff --git a/test1.txt b/test1.txt
+index 3ff7d75..de99bb7 100644
+--- a/test1.txt
++++ b/test1.txt
+@@ -1 +1,2 @@
+ Testo di prova 1
++Riga aggiunta
+
+commit 1ba67b737d5a8a55e2700a8e231d82351e2e3d73
+Author: AliceMoro <moro.alice97@gmail.com>
+Date:   Tue Nov 12 10:49:04 2024 +0100
+
+    First commit - committing all files to the repository
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..85db7b7
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,3 @@
++# files I want git to ignore
++tokens.txt
++*.dat
+diff --git a/terminal_output_1.txt b/terminal_output_1.txt
+new file mode 100644
+index 0000000..b730257
+--- /dev/null
++++ b/terminal_output_1.txt
+@@ -0,0 +1,887 @@
++alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ git --version
++git version 2.25.1
++alice@alice-HP-Laptop-15s-eq1xxx:prova_git$ sudo apt-get remove git
++[sudo] password for alice: 
++Reading package lists... Done
++Building dependency tree       
++Reading state information... Done
++The following packages were automatically installed and are no longer required:
++  gir1.2-goa-1.0 git-man liberror-perl libfwupdplugin1 libxmlb1
++  linux-headers-5.13.0-37-generic linux-hwe-5.13-headers-5.13.0-37
++  linux-image-5.13.0-37-generic linux-modules-5.13.0-37-generic
++  linux-modules-extra-5.13.0-37-generic
++Use 'sudo apt autoremove' to remove them.
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git help log
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git rebase -i --root
+Successfully rebased and updated refs/heads/master.
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ gedit test4new.txt &
+[1] 84184
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch NewLine4
+[1]+  Done                    gedit test4new.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch
+  NewLine4
+* master
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git config --global init.defaultBranch main
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch
+  NewLine4
+* master
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git switch NewLine4 
+M	test4new.txt
+Switched to branch 'NewLine4'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4)$ git branch
+* NewLine4
+  master
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4)$ gedit test4new.txt &
+[1] 84371
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4)$ git status
+On branch NewLine4
+nothing to commit, working tree clean
+[1]+  Done                    gedit test4new.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4)$ git switch master 
+Switched to branch 'master'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ gedit test4new.txt &
+[1] 84457
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch
+  NewLine4
+* master
+[1]+  Done                    gedit test4new.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git switch NewLine4 
+M	test4new.txt
+Switched to branch 'NewLine4'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4)$ gedit test4new.txt &
+[1] 84494
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4)$ git status
+On branch NewLine4
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   test4new.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1]+  Done                    gedit test4new.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4)$ git commit -a -m "Modified second line"
+[NewLine4 bc5958d] Modified second line
+ 1 file changed, 1 insertion(+)
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4)$ git switch master
+Switched to branch 'master'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ gedit test4new.txt &
+[1] 84570
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git merge -m "Merge NewLine4 back to master" NewLine4 
+Updating 52a9ebb..bc5958d
+Fast-forward (no commit created; -m option ignored)
+ test4new.txt | 1 +
+ 1 file changed, 1 insertion(+)
+[1]+  Done                    gedit test4new.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ gedit test4new.txt &
+[1] 84604
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch -d NewLine4 
+Deleted branch NewLine4 (was bc5958d).
+[1]+  Done                    gedit test4new.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch
+* master
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git switch -c NewLine4new
+Switched to a new branch 'NewLine4new'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4new)$ git branch
+* NewLine4new
+  master
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4new)$ gedit test4new.txt &
+[1] 84646
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4new)$ gedit test2.txt &
+[2] 84662
+[1]   Done                    gedit test4new.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4new)$ git branch switch master 
+[2]+  Done                    gedit test2.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4new)$ git branch
+* NewLine4new
+  master
+  switch
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine4new)$ git switch master 
+Switched to branch 'master'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch -d NewLine4 switch 
+error: branch 'NewLine4' not found.
+Deleted branch switch (was bc5958d).
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch -d NewLine4new switch 
+Deleted branch NewLine4new (was bc5958d).
+error: branch 'switch' not found.
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch -d switch 
+error: branch 'switch' not found.
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch
+* master
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git switch -c NewLine2
+Switched to a new branch 'NewLine2'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine2)$ gedit test2.txt &
+[1] 84799
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine2)$ git commit -a -m "Added new line in test2.txt from branch NewLine2"
+[NewLine2 9793734] Added new line in test2.txt from branch NewLine2
+ 1 file changed, 1 insertion(+)
+[1]+  Done                    gedit test2.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(NewLine2)$ git switch master 
+Switched to branch 'master'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ gedit test2.txt &
+[1] 84926
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git commit -a -m "Added new line in test2.txt from branch master"
+[master dab563b] Added new line in test2.txt from branch master
+ 1 file changed, 1 insertion(+)
+[1]+  Done                    gedit test2.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git merge NewLine2 
+Auto-merging test2.txt
+CONFLICT (content): Merge conflict in test2.txt
+Automatic merge failed; fix conflicts and then commit the result.
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ gedit test2.txt &
+[1] 85020
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git commit -a -m "Added new line in test2.txt from branch master - merge resolved"
+[master 82162c5] Added new line in test2.txt from branch master - merge resolved
+[1]+  Done                    gedit test2.txt
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git remote add origin https://github.com/AliceMoro/prova.git
+alice@alice-HP-Laptop-15s-eq1xxx:prova(master)$ git branch -M main
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git push -u origin main
+Username for 'https://github.com': AliceMoro
+Password for 'https://AliceMoro@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/AliceMoro/prova.git/'
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git remote set-url
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ history | grep remote
+ 1879  git remote add origin https://github.com/AliceMoro/prova.git
+ 1884  git remote add origin https://github.com/AliceMoro/prova.git
+ 1885  git remote rm origin
+ 1886  git remote add origin https://github.com/AliceMoro/prova.git
+ 1889  git remote rm origin
+ 1891  git remote -v
+ 1892  git remote --version
+ 1893  git remote --verbose
+ 1894  git remote rm origin
+ 1895  git remote add origin https://github.com/AliceMoro/prova.git
+ 1903  git remote rm origin
+ 1904  git remote add origin https://github.com/AliceMoro/prova.git
+ 1907  git remote rm origin
+ 1926  git remote rm origin
+ 1927  git remote
+ 1928  git remote rm origin
+ 1931  git remote add origin https://github.com/AliceMoro/prova.git
+ 1934  git remote -v
+ 1940  git remote -v
+ 1941  git remote rm origin
+ 1942  git remote -v
+ 1944  git remote -v
+ 1945  git remote add origin https://github.com/AliceMoro/prova.git
+ 1948  git remote -v
+ 1951  git remote -v
+ 1957  git remote -v
+ 1961  git remote -v
+ 1973  git remote -v
+ 1975  git remote rm origin
+ 1976  git remote -v
+ 1977  git remote add origin https://github.com/AliceMoro/prova.git
+ 1987  git remote -v
+ 2132  git remote add origin https://github.com/AliceMoro/prova.git
+ 2135  git remote set-url
+ 2136  history | grep remote
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git remote rm origin
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git remote add origin https://github.com/AliceMoro/prova.git
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git branch -M main
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git push -u origin main
+Username for 'https://github.com': AliceMoro
+Password for 'https://AliceMoro@github.com': 
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (23/23), 8.05 KiB | 2.01 MiB/s, done.
+Total 23 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/AliceMoro/prova.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git push --all
+Username for 'https://github.com': AliceMoro
+Password for 'https://AliceMoro@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'NewLine2' on GitHub by visiting:
+remote:      https://github.com/AliceMoro/prova/pull/new/NewLine2
+remote: 
+To https://github.com/AliceMoro/prova.git
+ * [new branch]      NewLine2 -> NewLine2
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git fetch
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.88 KiB | 960.00 KiB/s, done.
+From https://github.com/AliceMoro/prova
+   82162c5..60496b9  main                                    -> origin/main
+ * [new branch]      Added-new-line-to-test3.txt-after-issue -> origin/Added-new-line-to-test3.txt-after-issue
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git merge
+Updating 82162c5..60496b9
+Fast-forward
+ test3.txt | 1 +
+ 1 file changed, 1 insertion(+)
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ git pull
+Already up to date.
+alice@alice-HP-Laptop-15s-eq1xxx:prova(main)$ 
